@@ -1,0 +1,48 @@
+{
+  "name": "reddit_lite_react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "axios": "^0.16.2",
+    "es6-promise": "^4.1.1",
+    "fetch": "^1.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.12",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
+    },
+    "setupTestFrameworkScriptFile": "./localStorageMock.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "jest": "^20.0.4",
+    "jest-css-modules": "^1.1.0",
+    "react-addons-test-utils": "^15.6.0",
+    "react-test-renderer": "^15.6.1",
+    "redux-mock-store": "^1.2.3",
+    "supertest": "^3.0.0"
+  }
+}

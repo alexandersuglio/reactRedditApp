@@ -1,0 +1,20 @@
+.app-content {
+  margin-top: 6rem;
+}
+
+@media (max-width: 767px) {
+  .app-content {
+    margin-top: 12rem; 
+  }
+}
+
+.search-bar {
+	margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -200em;
+  top: -20em;
+}
