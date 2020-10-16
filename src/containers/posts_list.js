@@ -33,7 +33,7 @@ class PostsList extends Component {
 
             imgURL = `https://i.redd.it/${postData.data.gallery_data.items[0].media_id}.jpg`;
 
-            console.log(postData.data.gallery_data.items[0].media_id);
+           // console.log(postData.data.gallery_data.items[0].media_id);
 
         }
 
@@ -52,9 +52,7 @@ class PostsList extends Component {
 
         console.log(postData.data.commentsUrl)
 
-        //console.log(postData.data.title)
-
-
+   
         return (
 
 
@@ -93,12 +91,7 @@ class PostsList extends Component {
 
             console.log(posts)
 
-            console.log(posts[0].data.url)
-            console.log(posts[1].data.url)
-            console.log(posts[2].data.url)
-            console.log(posts[3].data.url)
-            console.log(posts[4].data.url)
-            console.log(posts[5].data.url)
+     
 
             //console.log(posts[4].data.gallery_data.items[0].media_id)
         }
