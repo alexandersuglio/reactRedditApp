@@ -7,6 +7,8 @@ Type subreddit you're trying to find into search bar and get 10 most recent post
 
 Blank searches defaults to 'r/pugs' 
 
+Mockup.pdf is meant to illustrate data flow between objects in app.
+
 ## Stack
 
 - React
